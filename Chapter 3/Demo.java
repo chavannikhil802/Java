@@ -1,0 +1,45 @@
+public class Demo {
+    public static void main(String[] args) {
+        // INTEGERS
+        // byte b = 5;
+
+        // Saving byte as binary
+        // byte b = 0b101;
+
+        // Saving byte as octal
+        // byte b =  05;
+
+        // Saving byte (15) as Hexa-decimal
+        byte b = 0XF;
+
+        short s = 10;
+        int i = 4000;
+        long l = 10000;
+
+        // STORING LONG USING _ (UNDERSCORE)
+        // NOTE - THIS _ CAN BE USED IN ALL INTEGER AND REAL NUMBER
+        // EXCEPT BEFORE AND AFTER DECIMAL(.) AND E
+        long m = 12_34_56_789;
+        
+        System.out.println("Integer values -> "+b+", "+s+", "+i+", "+l+", "+m);
+
+        // REAL NUMBERS
+        float f = 10.54f;
+        double d = 23.09848;
+
+        // STORING DOUBLE IN SCIENTIC WAY
+        double e = 6.022e23;
+
+        System.out.println("Real number values -> "+f+", "+d+", "+e);
+
+        // CHARACTERS
+        char c = 'a';
+
+        System.out.println("Character values -> "+c);
+
+        // BOOLEAN
+        boolean bool = false;
+
+        System.out.println("Boolean values -> "+bool);
+    }
+}

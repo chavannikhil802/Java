@@ -22,7 +22,10 @@ public class Demo {
         float f = 10.54f;
         double d = 23.09848;
 
-        System.out.println("Real number values -> "+f+", "+d);
+        // STORING DOUBLE IN SCIENTIC WAY
+        double e = 6.022e23;
+
+        System.out.println("Real number values -> "+f+", "+d+", "+e);
 
         // CHARACTERS
         char c = 'a';

@@ -7,7 +7,11 @@ public class Demo {
         // byte b = 0b101;
 
         // Saving byte as octal
-        byte b =  05;
+        // byte b =  05;
+
+        // Saving byte (15) as Hexa-decimal
+        byte b = 0XF;
+
         short s = 10;
         int i = 4000;
         long l = 10000;

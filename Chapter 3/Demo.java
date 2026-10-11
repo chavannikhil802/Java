@@ -18,5 +18,10 @@ public class Demo {
         char c = 'a';
 
         System.out.println("Character values -> "+c);
+
+        // BOOLEAN
+        boolean bool = false;
+
+        System.out.println("Boolean values -> "+bool);
     }
 }

@@ -13,5 +13,10 @@ public class Demo {
         double d = 23.09848;
 
         System.out.println("Real number values -> "+f+", "+d);
+
+        // CHARACTERS
+        char c = 'a';
+
+        System.out.println("Character values -> "+c);
     }
 }

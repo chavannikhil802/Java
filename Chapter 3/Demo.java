@@ -17,6 +17,8 @@ public class Demo {
         long l = 10000;
 
         // STORING LONG USING _ (UNDERSCORE)
+        // NOTE - THIS _ CAN BE USED IN ALL INTEGER AND REAL NUMBER
+        // EXCEPT BEFORE AND AFTER DECIMAL(.) AND E
         long m = 12_34_56_789;
         
         System.out.println("Integer values -> "+b+", "+s+", "+i+", "+l+", "+m);

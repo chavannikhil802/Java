@@ -15,8 +15,11 @@ public class Demo {
         short s = 10;
         int i = 4000;
         long l = 10000;
+
+        // STORING LONG USING _ (UNDERSCORE)
+        long m = 12_34_56_789;
         
-        System.out.println("Integer values -> "+b+", "+s+", "+i+", "+l);
+        System.out.println("Integer values -> "+b+", "+s+", "+i+", "+l+", "+m);
 
         // REAL NUMBERS
         float f = 10.54f;

@@ -4,7 +4,10 @@ public class Demo {
         // byte b = 5;
 
         // Saving byte as binary
-        byte b = 0b101;
+        // byte b = 0b101;
+
+        // Saving byte as octal
+        byte b =  05;
         short s = 10;
         int i = 4000;
         long l = 10000;

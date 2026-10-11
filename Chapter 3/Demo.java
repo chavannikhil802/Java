@@ -2,6 +2,8 @@ public class Demo {
     public static void main(String[] args) {
         // INTEGERS
         // byte b = 5;
+
+        // Saving byte as binary
         byte b = 0b101;
         short s = 10;
         int i = 4000;

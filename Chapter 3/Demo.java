@@ -8,5 +8,10 @@ public class Demo {
         
         System.out.println("Integer values -> "+b+", "+s+", "+i+", "+l);
 
+        // REAL NUMBERS
+        float f = 10.54f;
+        double d = 23.09848;
+
+        System.out.println("Real number values -> "+f+", "+d);
     }
 }

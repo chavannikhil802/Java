@@ -15,9 +15,17 @@ class Demo {
         System.out.println(i);
 
         // EXPLICIT CONVERSION
-        i = 24;
+        // int to byte
+        i = 240;
 
         b = (byte)i;
         System.out.println(b);
+
+        // TRUNCATING CONVERSION  
+        // float to int 
+        float f = 15.678f;
+
+        i = (int)f;
+        System.out.println(i);
     }
 }

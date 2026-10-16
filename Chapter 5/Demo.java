@@ -13,5 +13,11 @@ class Demo {
 
         i = c;
         System.out.println(i);
+
+        // EXPLICIT CONVERSION
+        i = 24;
+
+        b = (byte)i;
+        System.out.println(b);
     }
 }

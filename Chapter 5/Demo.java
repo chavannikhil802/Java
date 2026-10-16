@@ -27,5 +27,10 @@ class Demo {
 
         i = (int)f;
         System.out.println(i);
+
+        // TYPE PROMOTION
+        b = 50;
+        b =(byte) (50 * 2);
+        System.out.println(b);
     }
 }

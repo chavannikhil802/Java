@@ -7,5 +7,11 @@ class Demo {
 
         i = b;
         System.out.println(i);
+
+        // char to int
+        char c = 'a';
+
+        i = c;
+        System.out.println(i);
     }
 }

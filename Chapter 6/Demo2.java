@@ -8,5 +8,8 @@ public class Demo2 {
         boolean c = (a == b);
         System.out.println(c);
 
+        boolean d = (a != b);
+        System.out.println(d);
+
     }
 }

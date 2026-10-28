@@ -31,5 +31,8 @@ class Demo {
         h%=3;
         System.out.println(h);
         
+        int i = 6;
+        i++;
+        System.out.println(i);
     }
 }

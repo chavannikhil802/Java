@@ -31,11 +31,25 @@ class Demo {
         h%=3;
         System.out.println(h);
         
+        // INCREMENT OPERATOR
         int i = 6;
         i++;
         System.out.println(i);
 
+        // DECREMENT OPERATOR
         i--;
         System.out.println(i);
+
+        // PRE-INCREMENT/PRE-DECREMENT & POST-INCREMENT/POST-DECREMENT
+        int j = 7;
+        j++; // postfix increment
+        ++j; // prefix increment
+        System.out.println(j);
+
+        int k = j++;
+        System.out.println(k);
+
+        int l = ++j;
+        System.out.println(l);
     }
 }

@@ -17,6 +17,10 @@ class Demo {
         h = h+2;
         h+=2;
         System.out.println(h);
+
+        h = h-2;
+        h-=2;
+        System.out.println(h);
         
     }
 }

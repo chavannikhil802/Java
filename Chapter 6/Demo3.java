@@ -16,5 +16,9 @@ public class Demo3 {
         // g = g << 30; // 01000000 00000000 00000000 00000000
         g = g << 33; // g = g << 33 == g << 1
         System.out.println(g);
+
+        byte h = 1;
+        h = (byte)(h << 1); // 00000000 00000000 00000000 00000010
+        System.out.println(h);
     }
 }

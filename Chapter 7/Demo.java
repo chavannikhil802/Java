@@ -53,5 +53,24 @@ class Demo {
         else if(i == 10) {
             System.out.println("i is 10");
         } 
+
+        // IF - ELSE-IF LADDER example
+        int age = 9;
+
+        if(age > 80) {
+            System.out.println("You are very old");
+        }
+        else if(age > 60) {
+            System.out.println("You are old");
+        }
+        else if(age > 40) {
+            System.out.println("You are becoming old");
+        }
+        else if(age > 20) {
+            System.out.println("You are young");
+        }
+        else {
+            System.out.println("you are a too young");
+        }
     }
 }

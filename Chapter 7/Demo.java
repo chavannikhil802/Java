@@ -31,5 +31,27 @@ class Demo {
         else {
             System.out.println("i is less than 5");
         }
+
+        // IF - ELSE-IF LADDER
+        i = 9;
+
+        if(i == 5) {
+            System.out.println("i is 5");
+        }
+        else if(i == 6) {
+            System.out.println("i is 6");
+        } 
+        else if(i == 7) {
+            System.out.println("i is 7");
+        } 
+        else if(i == 8) {
+            System.out.println("i is 8");
+        } 
+        else if(i == 9) {
+            System.out.println("i is 9");
+        } 
+        else if(i == 10) {
+            System.out.println("i is 10");
+        } 
     }
 }

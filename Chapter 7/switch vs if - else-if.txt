@@ -1,0 +1,2 @@
+1. Switch can only tst equality but if- else-if can test both equality and unequality.
+2. Switch is more efficient than if - else-if ladder.

@@ -4,7 +4,12 @@ public class Demo2 {
         // SWITCH STATEMENTS
         int i = 2;
 
-        switch(i) {
+        // switch(expression) - Must evaluate to byte, short, int, char, Enumeration
+        // Also, no duplicate cases allowed
+        // After JDK 7, Strings can also be used as switch expression
+        // After JDK 14, switch is further enjanced.
+
+        switch(i) { 
             case 1:
                 System.out.println("i is 1");
                 break;

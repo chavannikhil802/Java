@@ -1,6 +1,6 @@
 public class Demo4 {
     public static void main(String[] args) {
-        int i = 5;
+        // int i = 5;
 
         // WHILE LOOP
         // while(i < 10) {
@@ -10,8 +10,14 @@ public class Demo4 {
         // System.out.println("Loop ended");
 
         // FOR LOOP
-        for(; ;) {
-            System.out.println(i);
+        // for(; ;) {
+        //     System.out.println(i);
+        // }
+
+        // FOR LOOP - COMMA SEPERATED VARIATION
+        for(int i = 1, j = 1; i <= 10 && j <= 5; i++, j+=2) {
+            System.out.println(i * j);
         }
+
     }
 }

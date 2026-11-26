@@ -28,7 +28,7 @@ public class Demo4 {
         //     }
         // }
 
-        // NESTED FOR LOOP
+        // NESTED FOR LOOP - PRINTING PATTERN
         for(int i = 1; i <= 20; i++) {
             for(int j = 1; j <= i; j++) {
                 System.out.print("* ");

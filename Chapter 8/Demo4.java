@@ -15,8 +15,17 @@ public class Demo4 {
         // }
 
         // FOR LOOP - COMMA SEPERATED VARIATION
-        for(int i = 1, j = 1; i <= 10 && j <= 5; i++, j+=2) {
-            System.out.println(i * j);
+        // for(int i = 1, j = 1; i <= 10 && j <= 5; i++, j+=2) {
+        //     System.out.println(i * j);
+        // }
+
+        // FOR LOOP USING BOOLEAN VALUE
+        boolean b = true;
+        for(int i = 0; b == true; i++) {
+            System.out.println(i);
+            if(i == 1000) {
+                b = false;
+            }
         }
 
     }

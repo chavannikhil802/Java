@@ -10,7 +10,7 @@ public class Demo4 {
         // System.out.println("Loop ended");
 
         // FOR LOOP
-        for(; ; i++) {
+        for(; ;) {
             System.out.println(i);
         }
     }

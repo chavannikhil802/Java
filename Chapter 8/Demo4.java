@@ -37,12 +37,27 @@ public class Demo4 {
         // }
 
         // break and continue statements
-        for(int i = 1; i <= 10; i++) {
-            System.out.println(i);
+        // for(int i = 1; i <= 10; i++) {
+        //     System.out.println(i);
 
-            if(i > 5) {
+        //     if(i > 5) {
+        //         break;
+        //     }
+        // }
+
+        // PRIME NUMBERS USING FOR LOOP AND BREAK
+        int p = 7, i;
+
+        for(i = 2; i < p; i++) {
+            if(p % i == 0) {
+                System.out.println("The number is not prime");
                 break;
             }
+        }
+        if(i == p) {
+            System.out.println("i - "+i);
+            System.out.println("p - "+p);
+            System.out.println("The number is prime");
         }
     }
 }

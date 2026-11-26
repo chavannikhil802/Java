@@ -29,11 +29,20 @@ public class Demo4 {
         // }
 
         // NESTED FOR LOOP - PRINTING PATTERN
-        for(int i = 1; i <= 20; i++) {
-            for(int j = 1; j <= i; j++) {
-                System.out.print("* ");
+        // for(int i = 1; i <= 20; i++) {
+        //     for(int j = 1; j <= i; j++) {
+        //         System.out.print("* ");
+        //     }
+        //     System.out.println();
+        // }
+
+        // break and continue statements
+        for(int i = 1; i <= 10; i++) {
+            System.out.println(i);
+
+            if(i > 5) {
+                break;
             }
-            System.out.println();
         }
     }
 }

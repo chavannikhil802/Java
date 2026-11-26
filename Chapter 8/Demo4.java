@@ -20,13 +20,20 @@ public class Demo4 {
         // }
 
         // FOR LOOP USING BOOLEAN VALUE
-        boolean b = true;
-        for(int i = 0; b == true; i++) {
-            System.out.println(i);
-            if(i == 1000) {
-                b = false;
-            }
-        }
+        // boolean b = true;
+        // for(int i = 0; b == true; i++) {
+        //     System.out.println(i);
+        //     if(i == 1000) {
+        //         b = false;
+        //     }
+        // }
 
+        // NESTED FOR LOOP
+        for(int i = 1; i <= 5; i++) {
+            for(int j = 1; j <= i; j++) {
+                System.out.print("* ");
+            }
+            System.out.println();
+        }
     }
 }
